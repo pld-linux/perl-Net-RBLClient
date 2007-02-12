@@ -6,7 +6,7 @@
 %define	pdir	Net
 %define	pnam	RBLClient
 Summary:	Net::RBLClient - Queries multiple Realtime Blackhole Lists in parallel
-Summary(pl):	Net::RBLClient - odpytywanie wielu list RBL równolegle
+Summary(pl.UTF-8):   Net::RBLClient - odpytywanie wielu list RBL rÃ³wnolegle
 Name:		perl-Net-RBLClient
 Version:	0.2
 Release:	1
@@ -32,15 +32,15 @@ want to block email or other traffic to/from your network based on one
 or more RBL's, you should carefully study the behavior of those RBL's
 before and during such blocking.
 
-%description -l pl
-Ten modu³ s³u¿y do ustalania, które RBL zawieraj± dany adres IP.
-Zrównolegla on zapytania w celu otrzymania odpowiedzi szybciej.
+%description -l pl.UTF-8
+Ten moduÅ‚ sÅ‚uÅ¼y do ustalania, ktÃ³re RBL zawierajÄ… dany adres IP.
+ZrÃ³wnolegla on zapytania w celu otrzymania odpowiedzi szybciej.
 
-RBL (Realtime Blackhole List) to lista adresów IP spe³niaj±cych pewne
-kryteria, takie jak udzia³ w wysy³aniu spamu. Ka¿dy RBL ma w³asne
-kryteria dodawania i usuwania adresów. Aby zablokowaæ pocztê lub inny
-ruch z/do w³asnej sieci w oparciu o jeden lub wiêcej RBL, nale¿y
-uwa¿nie zaznajomiæ siê z zachowaniem danego RBL przed i w czasie
+RBL (Realtime Blackhole List) to lista adresÃ³w IP speÅ‚niajÄ…cych pewne
+kryteria, takie jak udziaÅ‚ w wysyÅ‚aniu spamu. KaÅ¼dy RBL ma wÅ‚asne
+kryteria dodawania i usuwania adresÃ³w. Aby zablokowaÄ‡ pocztÄ™ lub inny
+ruch z/do wÅ‚asnej sieci w oparciu o jeden lub wiÄ™cej RBL, naleÅ¼y
+uwaÅ¼nie zaznajomiÄ‡ siÄ™ z zachowaniem danego RBL przed i w czasie
 takiego blokowania.
 
 %prep
