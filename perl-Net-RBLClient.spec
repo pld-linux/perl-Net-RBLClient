@@ -6,7 +6,7 @@
 %define	pdir	Net
 %define	pnam	RBLClient
 Summary:	Net::RBLClient - Queries multiple Realtime Blackhole Lists in parallel
-Summary(pl.UTF-8):   Net::RBLClient - odpytywanie wielu list RBL równolegle
+Summary(pl.UTF-8):	Net::RBLClient - odpytywanie wielu list RBL równolegle
 Name:		perl-Net-RBLClient
 Version:	0.2
 Release:	1
