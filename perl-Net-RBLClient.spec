@@ -8,13 +8,13 @@
 Summary:	Net::RBLClient - Queries multiple Realtime Blackhole Lists in parallel
 Summary(pl.UTF-8):	Net::RBLClient - odpytywanie wielu list RBL równolegle
 Name:		perl-Net-RBLClient
-Version:	0.2
-Release:	2
+Version:	0.5
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	4691f4a80b31c83491dcbc53fc4c1e02
+# Source0-md5:	1fb9961106cbb5a6eb2257762847e502
 URL:		http://search.cpan.org/dist/Net-RBLClient/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -65,5 +65,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README
+%attr(755,root,root) %{_bindir}/spamalyze
 %{perl_vendorlib}/Net/*.pm
+%{_mandir}/man1/spamalyze*
 %{_mandir}/man3/*
